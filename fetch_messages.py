@@ -40,5 +40,3 @@ def retrieve_messages(channel_id, to_fetch=-1):
             print(f'Messages fetched: {fetched}')
 
     print(f'Done fetching {fetched} messages into files 0 through {tag}!')
-
-retrieve_messages(config.general_channel_id)
